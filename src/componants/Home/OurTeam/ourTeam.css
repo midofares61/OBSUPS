@@ -1,0 +1,15 @@
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item {
+    width: 50% !important;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    width: 40% !important;
+    border-radius: 50%;
+    height: 220px;
+    margin: 0 auto;
+}

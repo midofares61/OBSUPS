@@ -1,0 +1,50 @@
+.cards {
+    gap: 10px 35px;
+}
+
+
+
+.col .image {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:767px) {
+    .col .image {
+        margin: auto;
+    }
+}
+
+.col .image img {
+    max-width: 60%;
+}
+
+.col:first-child .image {
+    background-color: rgb(244, 244, 244);
+}
+
+.col:nth-child(2) .image {
+    background-color: rgb(249, 240, 220);
+}
+
+.col:nth-child(3) .image {
+    background-color: rgb(225, 236, 254);
+}
+
+.col:last-child .image {
+    background-color: rgb(205, 248, 229);
+}
+
+.col .content {
+    width: 85%;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.col .content p {
+    font-size: 15px;
+}

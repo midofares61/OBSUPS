@@ -1,0 +1,43 @@
+.accord {
+    display: flex;
+    gap: 20px;
+    flex-basis: 50%;
+    margin: 50px 0;
+}
+
+.accordion {
+    width: 50%;
+}
+
+@media(max-width:991px) {
+    .accord {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+}
+
+.accordion-item {
+    margin: 10px 0;
+    border: none;
+    background-color: #f6f6f6;
+}
+
+.accordion-item button {
+    background-color: #f9f9f9;
+}
+
+.accordion-item button::after {
+    position: absolute;
+    left: 20px !important;
+
+}
+
+@media(max-width:767px) {
+    .accordion button {
+        font-size: 13px;
+    }
+}

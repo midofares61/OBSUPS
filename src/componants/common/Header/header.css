@@ -1,0 +1,65 @@
+:root {
+    --main-color: #194730;
+}
+
+
+.navbar .navbar-collapse li a {
+    color: var(--main-color);
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+    padding: 5px 10px;
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+    color: var(--main-color);
+}
+
+.navbar .navbar-brand span {
+    color: orange;
+
+}
+
+form {
+    position: relative;
+    align-items: center;
+}
+
+form .f-control {
+    border: none;
+    background-color: #f9f9f9;
+    width: 350px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #194730;
+    font-weight: 600;
+    padding: 7px 10px;
+
+}
+
+@media(max-width:1199px) {
+    .navbar .navbar-collapse li {
+        margin-right: 10px !important;
+    }
+
+    form .f-control {
+        width: 200px;
+    }
+}
+
+form .f-control:focus {
+    box-shadow: none;
+    background-color: #f9f9f9;
+    outline: none;
+}
+
+form i {
+    position: absolute;
+    left: 10px;
+}
+
+.user i {
+    margin-left: 10px;
+}
