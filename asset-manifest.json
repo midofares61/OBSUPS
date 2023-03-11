@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/OBSUPS/static/css/main.bd8ce7bb.css",
+    "main.js": "/OBSUPS/static/js/main.b16841cd.js",
+    "static/js/787.ca4c3714.chunk.js": "/OBSUPS/static/js/787.ca4c3714.chunk.js",
+    "static/media/delevry.png": "/OBSUPS/static/media/delevry.39dd8b09c27cb6282b88.png",
+    "static/media/save.png": "/OBSUPS/static/media/save.7a2f77eff8589017ce2a.png",
+    "static/media/call-center.png": "/OBSUPS/static/media/call-center.7c0d2b5ddb5a27a4b913.png",
+    "static/media/avatar-03.png": "/OBSUPS/static/media/avatar-03.9bcc1e0b675edf836ed9.png",
+    "static/media/visa.png": "/OBSUPS/static/media/visa.029bc256d16999731ae9.png",
+    "index.html": "/OBSUPS/index.html",
+    "main.bd8ce7bb.css.map": "/OBSUPS/static/css/main.bd8ce7bb.css.map",
+    "main.b16841cd.js.map": "/OBSUPS/static/js/main.b16841cd.js.map",
+    "787.ca4c3714.chunk.js.map": "/OBSUPS/static/js/787.ca4c3714.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd8ce7bb.css",
+    "static/js/main.b16841cd.js"
+  ]
+}
